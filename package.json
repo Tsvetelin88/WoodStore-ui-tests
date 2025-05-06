@@ -1,0 +1,23 @@
+{
+  "name": "woodstore-ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsvetelin88/WoodStore-ui-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsvetelin88/WoodStore-ui-tests/issues"
+  },
+  "homepage": "https://github.com/Tsvetelin88/WoodStore-ui-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.12",
+    "typescript": "^5.8.3"
+  }
+}
