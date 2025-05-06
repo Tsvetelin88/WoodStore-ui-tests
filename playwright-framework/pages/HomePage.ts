@@ -6,7 +6,7 @@ export class HomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.header = page.locator('h1');
+    this.header = page.getByRole('navigation').getByRole('link', { name: 'Home' })
   }
 
   async goto() {

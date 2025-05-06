@@ -6,5 +6,5 @@ test('Check the title of the page', async ({ page }) => {
   await homePage.goto();
 
   const headerText = await homePage.getHeaderText();
-  expect(headerText).toContain('WoodStore');
+  expect(headerText).toContain('Home');
 });
